@@ -33,8 +33,8 @@ public class SubmitOrderClient {
         param.put("customName","客户姓名test");
         param.put("brandOrder","NO201909010001");
         param.put("deliverDate","2019-09-01");
-		param.put("contactName","某某某");
-		param.put("contactPhone","13666666666");
+	param.put("contactName","某某某");
+	param.put("contactPhone","13666666666");
 
         //提交下单请求
         submit(Configuration.API_KEY,Configuration.API_SECRET,param);
